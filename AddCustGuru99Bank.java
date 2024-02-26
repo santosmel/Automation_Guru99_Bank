@@ -63,10 +63,10 @@ public class AddCustGuru99Bank {
 		driver.findElement(By.xpath("//input[@value='f']")).click();
 		
 		//unique in every run
-		driver.findElement(By.name("name")).sendKeys("Nine Nine");
+		driver.findElement(By.name("name")).sendKeys("Twelve Twelve");
 		
 		//unique in every run
-		driver.findElement(By.name("dob")).sendKeys("06/09/1988");
+		driver.findElement(By.name("dob")).sendKeys("06/12/1988");
 		driver.findElement(By.name("addr")).sendKeys("Araw");
 		driver.findElement(By.name("city")).sendKeys("Imus");
 		driver.findElement(By.name("state")).sendKeys("Cavite");
@@ -74,7 +74,7 @@ public class AddCustGuru99Bank {
 		driver.findElement(By.name("telephoneno")).sendKeys("9201234567");
 		
 		//unique in every run
-		driver.findElement(By.name("emailid")).sendKeys("test9@test9.com");
+		driver.findElement(By.name("emailid")).sendKeys("test12@test.com");
 		driver.findElement(By.name("password")).sendKeys("pw@!49");
 		driver.findElement(By.name("sub")).click();		
 	
